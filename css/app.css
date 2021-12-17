@@ -546,7 +546,6 @@
   
   .btn {
       font-weight: 600;
-      text-align: center;
   }
   
   .fancybox__content {
@@ -769,18 +768,15 @@
       top: 0;
   }
   .circle {
-      transform: scale(0.6);
-      position: relative;
-      top: -4%;
+    transform: scale(0.75);
+    position: relative;
+    top: -12%;
   }
   .volna {
       top: 73%;
   }
   .wrapper:after {
       top: 73%;
-  }
-  .logo {
-      top: 49px;
   }
   .center {
       margin-top: -12px;
@@ -791,7 +787,7 @@
   }
   
   .kakadu {
-      top: 19vh;
+      top: 15vh;
       left: 24vw;
   }
   .logo img {
@@ -814,7 +810,9 @@
       top: 67%;
   }
   .circle {
-      top: -11%;
+    transform: scale(0.7);
+    position: relative;
+    top: -12%;
   }
   #click {
       top: 41%;
@@ -836,6 +834,10 @@
   .palma-right img {
       max-width: 140px;
   }
+
+  .circle {
+    top: 0;
+  }
   
   }
   
@@ -844,6 +846,7 @@
       .logo {
           top: -5px;
       }
+      
   }
   
   @media (max-height: 720px) {
@@ -852,6 +855,7 @@
           width: 618px;
           height: 618px;
       }
+      
   }
 
   @media (max-height: 600px) {
@@ -861,8 +865,17 @@
     }
 
     .circle {
-        transform: scale(0.7);
+        transform: scale(0.6);
+        top: 1%;
+    }  
+
+    .kakadu {
+        display: none;
     }
+
+    .logo {
+        top: 30px;
+    }  
 
   }
 

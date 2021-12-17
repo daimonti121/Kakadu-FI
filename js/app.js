@@ -2,7 +2,7 @@ window.HUB_EVENTS={ASSET_ADDED:"ASSET_ADDED",ASSET_DELETED:"ASSET_DELETED",ASSET
 
 var colors = ["#A109FF", "#FD372A", "#FED022", "#00C3E6",
              "#A109FF", "#FD372A", "#FED022", "#00C3E6"];
-var prizes = [" YRITÄ KERTAA", "100% UP TO     200 EUR    asti", "75 IK", "100 IK", "EI VOITTAA", " 50% UP TO    100 EUR    asti", "20 IK", " 75% UP TO    100 EUR    asti"];
+var prizes = [" YRITÄ KERTAA", "100% UP TO    200 EUR    asti", "75 IK", "100 IK", "EI VOITTAA", "50% UP TO   100 EUR    asti", "20 IK", "75% UP TO   100 EUR    asti"];
 
 var startAngle = 0*Math.PI/180;
 var arc = (2 * Math.PI) / colors.length;
@@ -27,7 +27,7 @@ function drawRouletteWheel() {
    
     ctx = canvas.getContext("2d");
     ctx.clearRect(0,0,500,500);
-    ctx.font = 'bold 13px Arial';
+    ctx.font = 'bold 14px Arial';
     ctx.textAlign = "center";
    
     for(var i = 0; i < colors.length; i++) {

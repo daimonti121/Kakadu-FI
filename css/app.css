@@ -546,6 +546,7 @@
   
   .btn {
       font-weight: 600;
+      text-align: center;
   }
   
   .fancybox__content {

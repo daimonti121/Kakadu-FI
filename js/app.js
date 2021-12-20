@@ -2,7 +2,7 @@ window.HUB_EVENTS={ASSET_ADDED:"ASSET_ADDED",ASSET_DELETED:"ASSET_DELETED",ASSET
 
 var colors = ["#A109FF", "#FD372A", "#FED022", "#00C3E6",
              "#A109FF", "#FD372A", "#FED022", "#00C3E6"];
-var prizes = ["        YRITÄ          KERTAA", " 100% JOPA      200 EUR    asti", "75 IK", "100 IK", "EI VOITTAA", " 50% JOPA    200 EUR    asti", "20 IK", " 75% JOPA    100 EUR    asti"];
+var prizes = ["        YRITÄ          KERTAA", " 100% JOPA      200 EUR    asti", "75 IK", "100 IK", "EI VOITTAA", " 50% JOPA    100 EUR    asti", "20 IK", " 75% JOPA    100 EUR    asti"];
 
 var startAngle = 0*Math.PI/180;
 var arc = (2 * Math.PI) / colors.length;

@@ -5,13 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KAKADU</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/fancybox.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap" rel="stylesheet">
     <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
@@ -113,21 +107,21 @@
             </div>
         </div>
     </div>
-    <button data-fancybox data-src="#animatedModal" class="none this"></button>
+    <button data-fancybox data-modal="true" data-src="#animatedModal" class="none this"></button>
     <div class="wrapper-popup none" >
         <div id="animatedModal" class="none">
             <div class="text1">Onnittelut!</div>
             <div class="text2">Voitat <span>100 IK</span>! Saat lisää!</div>
-            <div class="btn btn-1">SPIN</div>
+            <div class="btn btn-1" data-fancybox-close>SPIN</div>
         </div>
     </div>
-    <button data-fancybox data-src="#animatedModal2" class="none this2"></button>
-    <div class="wrapper-popup none" >
-        <div id="animatedModal2" >
+    <button data-fancybox data-modal="true" data-src="#animatedModal2" class="none this2"></button>
+    <div class="wrapper-popup none">
+        <div id="animatedModal2">
             <div class="popupImg"><img src="img/5.png" alt=""></div>
             <div class="text1">Vau! Kokonaisbonuksesi on <span>100%</span> jopa <span>200 EUR asti</span> + <span>100 IK</span>!</div>
             <div class="text2">Ota se nyt ja lennetään Kakadun saarelle!</div>
-            <div class="btn btn-2">Hanki bonus</div>
+            <div class="btn btn-2" data-fancybox-close>Hanki bonus</div>
         </div>
     </div>
     <script src="js/jquery.min.js"></script>
